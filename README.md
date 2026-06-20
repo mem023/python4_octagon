@@ -1,4 +1,4 @@
-# Python4 Octagon / Books API
+# Python4 Octagon
 
 Проект реализует работу с PostgreSQL через SQLAlchemy и API на FastAPI.
 

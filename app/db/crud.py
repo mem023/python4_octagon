@@ -49,9 +49,9 @@ def delete_category(db: Session, category_id: int) -> bool:
 def create_book(
     db: Session,
     title: str,
-    description: str,
+    description: str | None,
     price: float,
-    url: str,
+    url: str | None,
     category_id: int,
 ) -> Book:
     book = Book(

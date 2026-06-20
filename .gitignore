@@ -1,6 +1,10 @@
-```text
+venv/
 __pycache__/
 *.pyc
-.venv/
-venv/
+
+.env
+
 .vscode/
+.idea/
+
+.DS_Store
